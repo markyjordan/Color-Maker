@@ -89,6 +89,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="blueSlider" destination="RaK-04-5oe" id="aDC-Gf-ejG"/>
+                        <outlet property="colorView" destination="qDQ-fZ-G0V" id="duO-7U-aWH"/>
+                        <outlet property="greenSlider" destination="Hvx-Sm-R5G" id="Zik-qy-Aa6"/>
+                        <outlet property="redSlider" destination="BNU-w6-m05" id="IMT-kK-a1u"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
