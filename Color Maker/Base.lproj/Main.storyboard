@@ -15,56 +15,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="fUV-Bd-HcF">
-                                <rect key="frame" x="75" y="244" width="225" height="334"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="fUV-Bd-HcF">
+                                <rect key="frame" x="50" y="244" width="275" height="334"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="yUD-vq-Atm">
-                                        <rect key="frame" x="0.0" y="0.0" width="225" height="20.333333333333332"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDh-Hz-xPa" userLabel="Red Label">
-                                                <rect key="frame" x="0.0" y="0.0" width="112.66666666666667" height="20.333333333333332"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xDh-Hz-xPa" userLabel="Red Label">
+                                                <rect key="frame" x="0.0" y="0.0" width="137.66666666666666" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BNU-w6-m05" userLabel="Red Slider">
-                                                <rect key="frame" x="110.66666666666666" y="0.0" width="116.33333333333334" height="21.333333333333332"/>
+                                                <rect key="frame" x="135.66666666666663" y="0.0" width="141.33333333333337" height="31"/>
                                             </slider>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pI0-ak-1Rn">
-                                        <rect key="frame" x="0.0" y="20.333333333333314" width="225" height="20.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="45" width="275" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUq-Fs-tAs" userLabel="Green Label">
-                                                <rect key="frame" x="0.0" y="0.0" width="112.66666666666667" height="20.333333333333332"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Green" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dUq-Fs-tAs" userLabel="Green Label">
+                                                <rect key="frame" x="0.0" y="0.0" width="137.66666666666666" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Hvx-Sm-R5G" userLabel="Green Slider">
-                                                <rect key="frame" x="110.66666666666666" y="0.0" width="116.33333333333334" height="21.333333333333332"/>
+                                                <rect key="frame" x="135.66666666666663" y="0.0" width="141.33333333333337" height="31"/>
                                             </slider>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="jFg-9f-3Bu">
-                                        <rect key="frame" x="0.0" y="40.666666666666686" width="225" height="20.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="90" width="275" height="30"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gy2-1i-TSS" userLabel="Blue Label">
-                                                <rect key="frame" x="0.0" y="0.0" width="112.66666666666667" height="20.333333333333332"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gy2-1i-TSS" userLabel="Blue Label">
+                                                <rect key="frame" x="0.0" y="0.0" width="137.66666666666666" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="RaK-04-5oe" userLabel="Blue Slider">
-                                                <rect key="frame" x="110.66666666666666" y="0.0" width="116.33333333333334" height="21.333333333333332"/>
+                                                <rect key="frame" x="135.66666666666663" y="0.0" width="141.33333333333337" height="31"/>
                                             </slider>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vou-Hh-PJ4">
-                                        <rect key="frame" x="0.0" y="61" width="225" height="273"/>
+                                        <rect key="frame" x="0.0" y="135" width="275" height="199"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qDQ-fZ-G0V" userLabel="Color View">
-                                                <rect key="frame" x="0.0" y="0.0" width="225" height="273"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="275" height="199"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                             </view>
                                         </subviews>
@@ -74,10 +74,10 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fUV-Bd-HcF" secondAttribute="trailing" constant="75" id="G1O-iu-47t"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fUV-Bd-HcF" secondAttribute="trailing" constant="50" id="G1O-iu-47t"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fUV-Bd-HcF" secondAttribute="bottom" constant="200" id="VBK-AB-Cw4"/>
                             <constraint firstItem="fUV-Bd-HcF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="mTs-qv-fY2"/>
-                            <constraint firstItem="fUV-Bd-HcF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="75" id="xng-tg-Y3m"/>
+                            <constraint firstItem="fUV-Bd-HcF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="xng-tg-Y3m"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
