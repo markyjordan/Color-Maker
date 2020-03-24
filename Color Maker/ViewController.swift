@@ -40,4 +40,3 @@ class ViewController: UIViewController {
         colorView.backgroundColor = UIColor(displayP3Red: r, green: g, blue: b, alpha: 1)
     }
 }
-
