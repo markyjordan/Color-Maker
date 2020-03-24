@@ -24,7 +24,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        // set a colorView on launch
+        changeColorComponent()
         
     }
 
