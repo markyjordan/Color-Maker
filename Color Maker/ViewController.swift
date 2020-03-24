@@ -8,12 +8,18 @@
 
 import UIKit
 
+// MARK: ViewController: UIViewController
+
 class ViewController: UIViewController {
 
+    // MARK: Outlets
+    
     @IBOutlet weak var colorView: UIView!
     @IBOutlet weak var redSlider: UISlider!
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
+    
+    // MARK: Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +28,15 @@ class ViewController: UIViewController {
         
     }
 
-
+    // MARK: Actions
+    
+    @IBAction func changeColorComponent() {
+        
+        let r: CGFloat = CGFloat(self.redSlider!.value)
+        let g: CGFloat = CGFloat(self.greenSlider!.value)
+        let b: CGFloat = CGFloat(self.blueSlider!.value)
+        
+        colorView.backgroundColor = UIColor(displayP3Red: r, green: g, blue: b, alpha: 1)
+    }
 }
 
