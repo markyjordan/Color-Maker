@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var redSlider: UISlider!
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
+    @IBOutlet weak var hexCode: UILabel!
     
     // MARK: Life Cycle
     
