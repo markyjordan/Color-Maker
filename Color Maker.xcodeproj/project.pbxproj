@@ -14,6 +14,7 @@
 		E2579E8924285CF300B57E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2579E8824285CF300B57E35 /* Assets.xcassets */; };
 		E2579E8C24285CF300B57E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2579E8A24285CF300B57E35 /* LaunchScreen.storyboard */; };
 		E2579EB42429E08D00B57E35 /* IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2579EB32429E08D00B57E35 /* IBInspectable.swift */; };
+		E278F6AE24343B0900FBE7B9 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E278F6AD24343B0900FBE7B9 /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E2579E8B24285CF300B57E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2579E8D24285CF300B57E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2579EB32429E08D00B57E35 /* IBInspectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBInspectable.swift; sourceTree = "<group>"; };
+		E278F6AD24343B0900FBE7B9 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E2579E7F24285CF000B57E35 /* AppDelegate.swift */,
 				E2579E8124285CF000B57E35 /* SceneDelegate.swift */,
 				E2579E8324285CF000B57E35 /* ViewController.swift */,
+				E278F6AD24343B0900FBE7B9 /* UIColorExtension.swift */,
 				E2579E8524285CF000B57E35 /* Main.storyboard */,
 				E2579EB32429E08D00B57E35 /* IBInspectable.swift */,
 				E2579E8824285CF300B57E35 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				E2579E8424285CF000B57E35 /* ViewController.swift in Sources */,
 				E2579E8024285CF000B57E35 /* AppDelegate.swift in Sources */,
+				E278F6AE24343B0900FBE7B9 /* UIColorExtension.swift in Sources */,
 				E2579E8224285CF000B57E35 /* SceneDelegate.swift in Sources */,
 				E2579EB42429E08D00B57E35 /* IBInspectable.swift in Sources */,
 			);
